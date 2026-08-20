@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Eckfeldt dashboard</title>
+<style>
+:root {
+  --ink:#182430; --mut:#66707c; --line:#dfe3e7; --bg:#f6f7f8; --card:#ffffff;
+  --acc:#0e6a60; --acc-soft:#e3efed;
+}
+* { box-sizing:border-box; margin:0; padding:0; }
+body {
+  background:var(--bg); color:var(--ink);
+  font:14px/1.55 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  padding:28px 32px 40px;
+}
+header { display:flex; align-items:baseline; justify-content:space-between;
+  border-bottom:2px solid var(--ink); padding-bottom:10px; margin-bottom:22px; }
+header h1 { font-size:19px; font-weight:650; letter-spacing:-.01em; }
+header .date { color:var(--mut); font-size:13px; font-variant-numeric:tabular-nums; }
+.grid { display:grid; grid-template-columns:repeat(auto-fit, minmax(290px, 1fr)); gap:18px; }
+section { background:var(--card); border:1px solid var(--line); border-radius:8px;
+  padding:14px 16px 12px; }
+h2 { font-size:11px; font-weight:650; text-transform:uppercase; letter-spacing:.09em;
+  color:var(--acc); margin-bottom:9px; }
+ul { list-style:none; }
+li { display:flex; align-items:baseline; justify-content:space-between; gap:12px;
+  padding:4px 0; border-top:1px solid var(--line); }
+li:first-child { border-top:0; }
+.nm { font-weight:500; color:var(--ink); text-decoration:none; }
+a.nm:hover { color:var(--acc); }
+.lk { display:flex; gap:6px; flex-shrink:0; }
+.lk a { font-size:12px; color:var(--acc); background:var(--acc-soft); text-decoration:none;
+  padding:1px 8px; border-radius:10px; }
+.lk a:hover { background:var(--acc); color:#fff; }
+.tools ul { display:flex; flex-wrap:wrap; gap:8px; }
+.tools li { border:0; padding:0; }
+.tools a { display:inline-block; font-weight:500; color:var(--ink); text-decoration:none;
+  border:1px solid var(--line); border-radius:6px; padding:6px 14px; background:var(--bg); }
+.tools a:hover { border-color:var(--acc); color:var(--acc); }
+.today .empty { color:var(--mut); font-size:13px; padding:6px 0; }
+footer { margin-top:24px; color:var(--mut); font-size:12px;
+  border-top:1px solid var(--line); padding-top:10px; }
+a:focus-visible { outline:2px solid var(--acc); outline-offset:2px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Eckfeldt dashboard</h1>
+  <span class="date">Regenerated August 20, 2026</span>
+</header>
+
+<section class="today" style="margin-bottom:18px">
+  <h2>Today</h2>
+  <p class="empty">Snapshot data arrives at v1.5. Tasks and calendar will bake in at regeneration time.</p>
+</section>
+
+<div class="grid">
+<section><h2>Active clients</h2><ul><li><span class="nm">Analytix</span><span class="lk"><a href="https://claude.ai/project/019dbb26-c830-7651-9011-9992a028b81e">Project</a><a href="https://drive.google.com/drive/folders/1DI8kCa8Uu5vzZF6Dj1cfM-0vZqCel6Lp">Drive</a></span></li><li><span class="nm">Brigent</span><span class="lk"><a href="https://claude.ai/project/019be575-f703-7609-b300-b0b26c239fba">Project</a><a href="https://drive.google.com/drive/folders/1jH96AU7Lhh86xlcls1lhVi-6b3h-GM5l">Drive</a></span></li><li><span class="nm">Circle Medical</span><span class="lk"><a href="https://claude.ai/project/019cbe65-d9fd-75d7-8fb5-7dfdd56343b4">Project</a><a href="https://drive.google.com/drive/folders/1sF0axr3Zsqlo4x4GLGLR1TUfV_zN5Z4s">Drive</a></span></li><li><span class="nm">Goetz Platzer</span><span class="lk"><a href="https://claude.ai/project/019b08a8-0c36-76c0-9188-0c6a7dda793f">Project</a><a href="https://drive.google.com/drive/folders/19qfabFUbQj5zRSq60-l_zRnjC0C3xPba">Drive</a></span></li><li><span class="nm">HTM</span><span class="lk"><a href="https://claude.ai/project/019d833c-8379-7463-ab00-f07ec5b40254">Project</a><a href="https://drive.google.com/drive/folders/1VfFox83bunEaYQ1FO_oYDBdF6nbj72YJ">Drive</a></span></li><li><span class="nm">PEF Forums</span><span class="lk"><a href="https://claude.ai/project/019afba7-87f8-772f-b4ac-4990ba5a57ef">Project</a><a href="https://drive.google.com/drive/folders/103iRN67TrCXhbFJo4B4chv6tlf20v4DE">Drive</a></span></li><li><span class="nm">Sportsology Group</span><span class="lk"><a href="https://claude.ai/project/019e9cf9-7eeb-70fd-adcc-5d4b0ff25408">Project</a><a href="https://drive.google.com/drive/folders/16OCOpZPIt7eyhzp_K2DlyNIpmGLNZiQO">Drive</a></span></li><li><span class="nm">The Growth Forum (EO South FL)</span><span class="lk"><a href="https://claude.ai/cowork/project/019f4664-a623-7017-a82e-3067bed3f7bc">Project</a><a href="https://drive.google.com/drive/folders/1ExhkVh8OvZ5KTKynXDqYi84kpBL1E7NB">Drive</a></span></li><li><span class="nm">Wolkow Braker</span><span class="lk"><a href="https://claude.ai/project/019c19cd-2614-7277-9170-a2c66ba6e647">Project</a><a href="https://drive.google.com/drive/folders/1g99LewVEQiMd8T2HsRMI1x1TXJIw2tH9">Drive</a></span></li></ul></section>
+<section><h2>Tier 1 - Meta</h2><ul><li><a class="nm" href="https://claude.ai/project/019be653-7437-71a7-925b-41182c691b56">SYS - Cortex</a><span class="lk"><a href="https://drive.google.com/drive/folders/1tH0q2Q0_DgFQQirDZiNvyyRvBrY8wgCI">Drive</a></span></li></ul></section>
+<section><h2>Tier 2 - Areas</h2><ul><li><a class="nm" href="https://claude.ai/project/019d460a-df6d-7586-93af-3b5cea92057c">PER - Finance - Monthly Close</a><span class="lk"><a href="https://drive.google.com/drive/folders/1QX3giNIq8ffeOfQzj4QrsBeQqoe-w3nH">Drive</a></span></li><li><a class="nm" href="https://claude.ai/cowork/project/019f7ae6-a1b9-766e-9eb8-c74aa0502187">PER - Financial - Advisor</a><span class="lk"><a href="https://drive.google.com/drive/folders/1j6VcBpcj2TK2rO0FGvD25ro7HTQG_jz7">Drive</a></span></li><li><a class="nm" href="https://claude.ai/cowork/project/019ecd37-605a-7722-8517-20475a33b88e">PER - Health &amp; Fitness</a><span class="lk"><a href="https://drive.google.com/drive/folders/1QTDfGe92iXtqNmITjGLqWuZyiRPt7M3k">Drive</a></span></li><li><a class="nm" href="Not">PER - Personal Coaching</a><span class="lk"><a href="https://drive.google.com/drive/folders/11MSItgI0qodtKBRAlAfnY0hH4Ti3c6rz">Drive</a></span></li><li><a class="nm" href="https://claude.ai/project/019f5874-3841-7175-b5f3-b695e8d6519b">PER - Places to Live</a><span class="lk"><a href="https://drive.google.com/drive/folders/1FNJN1iHSNsdwJ432V5bANijE6Sz-a6vW">Drive</a></span></li><li><a class="nm" href="https://claude.ai/cowork/project/019f7b3b-57b3-7434-a912-3a7d63b15246">PER - Travel and Trips</a><span class="lk"><a href="https://drive.google.com/drive/folders/1XSbit0moUwROSx0X5c3Qb_P-oTMUCEMc">Drive</a></span></li><li><a class="nm" href="https://claude.ai/cowork/project/019f4669-782b-7109-9a7b-bf30789bcc57">PRO - Business Strategy</a><span class="lk"><a href="https://drive.google.com/drive/folders/1t43luVRgg3dzGyo7YuzI8Dsml4cf4-7Z">Drive</a></span></li><li><a class="nm" href="https://claude.ai/project/019df94c-b2b4-71f5-91e2-c316d563dc94">PRO - Channel - Eckfeldt.com</a><span class="lk"><a href="https://drive.google.com/drive/folders/18YILPwV-PEVsxt3javvCBbVQ1fkQi6My">Drive</a></span></li><li><a class="nm" href="https://claude.ai/cowork/project/019fe3ce-29ff-745c-ac06-d02204d542d8">PRO - Channel - SpringboardExit.com</a><span class="lk"><a href="https://drive.google.com/drive/folders/1F238dVduodTsmuQpweDqms90AhiaVME3">Drive</a></span></li><li><a class="nm" href="https://claude.ai/project/0196fe40-bae8-71da-bc72-7dcd50331b7c">PRO - Content - FATE Podcast</a><span class="lk"><a href="https://drive.google.com/drive/folders/1KGhFZevIwfa6DnVP0EFSfslO28RdtG1d">Drive</a></span></li><li><a class="nm" href="TODO.">PRO - Content - Inc Articles</a><span class="lk"><a href="https://drive.google.com/drive/folders/1ImEdJm0MOlP3JR_ANjiRcJtLvuj24_xu">Drive</a></span></li><li><a class="nm" href="https://claude.ai/cowork/project/019beb86-6e61-767c-a0bf-0fd2d7ab88f3">PRO - Content - LinkedIn LIVE</a><span class="lk"><a href="https://drive.google.com/drive/folders/1JiraXIfYGbwahbiKj19dRybSbDy1Yueg">Drive</a></span></li><li><a class="nm" href="https://claude.ai/cowork/project/019e5bef-e222-7247-a4b6-8323d6edac39">PRO - Content - Presentations</a><span class="lk"><a href="https://drive.google.com/drive/folders/15X3h_YPVmTCdsZ5emG6IsA-2Hb7gJ4Vr">Drive</a></span></li><li><a class="nm" href="https://claude.ai/project/019f337d-20c6-7329-b1f2-592da4478e4b">PRO - Operations - Contact Management</a><span class="lk"><a href="https://drive.google.com/drive/folders/1RWx5vTrM5mgJJKoH-2p295aeNQDvKpua">Drive</a></span></li><li><a class="nm" href="https://claude.ai/project/019ea29e-78fe-75f6-987f-0728c99723a0">PRO - Operations - Email Management</a><span class="lk"><a href="https://drive.google.com/drive/folders/1K_iyfSD7XvB9RYuh2vaaA3o95HG-zhPr">Drive</a></span></li><li><a class="nm" href="https://claude.ai/cowork/project/019f9f43-03ca-7797-88f8-c794845cd953">PRO - Program - BLUEPRINT90</a><span class="lk"><a href="https://drive.google.com/drive/folders/1iIZfBsLPARAN_AIrK8eeG8medyn0IA47">Drive</a></span></li><li><a class="nm" href="https://claude.ai/cowork/project/0199a562-6460-7785-9ed3-3f7047bff492">PRO - Tool - AAA Playbook Tools</a><span class="lk"><a href="https://drive.google.com/drive/folders/1kJR8E1Q_ZAo4s_WgEN1YBNGmXyb4Df3E">Drive</a></span></li><li><a class="nm" href="https://claude.ai/cowork/project/019dbc4e-064e-74c3-b0ef-d2af5a0dfa3e">SYS - Mission Control</a><span class="lk"><a href="https://drive.google.com/drive/folders/1x-RQ9SvstCrLEwW-UZUn60IVZPzDFioM">Drive</a></span></li></ul></section>
+
+<section><h2>Canonicals</h2><ul><li><a class="nm" href="https://docs.google.com/document/d/10PLJuszvWzmsFrLqLOtkNQByO17JDOhAHmA_mcYfdAI/edit">Foundation</a></li><li><a class="nm" href="https://docs.google.com/document/d/1rJTezrVL36vzaD1FiFp8a8DSNI327h_GL1ngc2tYBxE/edit">Project Operations</a></li><li><a class="nm" href="https://docs.google.com/document/d/1hLf8tHA8z1C0j6-P5crgk6ldMR0ImdDDUZ5P6oPkB_g/edit">Project Registry</a></li><li><a class="nm" href="https://docs.google.com/document/d/1hDrGkakVZdgAANkTBkd1Aa9oaMcOMXU-GvL42h9R_rs/edit">Bruce and Business</a></li><li><a class="nm" href="https://docs.google.com/document/d/1J5piY2zSlWGGl9CAcvW0_Og9zDgz4_KDIkQSLZrvGew/edit">Brand Book</a></li><li><a class="nm" href="https://docs.google.com/document/d/1cNnuUdfET2dXUsYwz1j9XQjpVvx-tUuzyxWrttP-7ac/edit">Content Production</a></li><li><a class="nm" href="https://docs.google.com/document/d/1Tn-ZIQtZaqeOnaW9M60QDIg1QPXxRpOTJxgj_1ppYkw/edit">Document Formatting Standards</a></li><li><a class="nm" href="https://docs.google.com/document/d/1v0HMgxc8pCTh1cqU9e--8JXH8smlS22NVZJo1MMc6Wk/edit">Client Engagement</a></li><li><a class="nm" href="https://docs.google.com/document/d/1wZlFL2l3YJqO3RUIwfLkz1PrIoeppZGjEt3TYCoq_z4/edit">SEO Guidelines</a></li><li><a class="nm" href="https://docs.google.com/document/d/1nQ5PQeVpcFxS11PNgdA_Ll9Oa79pXa1PSUjoBrEkkH4/edit">Springboard Book</a></li><li><a class="nm" href="https://docs.google.com/document/d/1vJ16wVgFX09x9TD9Vni36ywH7ioESpl-6XnEZv1s3ho/edit">SOP Authoring Standard</a></li><li><a class="nm" href="https://docs.google.com/document/d/1e6V2pEfQoBHkEqcxrLr6YwBJG5STqSqwtuEDgU1VyCA/edit">Frameworks and Vocabulary</a></li><li><a class="nm" href="https://docs.google.com/document/d/1-AgZzB1Jy4GJwVM5p8lsaRoBe0yFr9QOhsgULbyQwS8/edit">Drive Architecture</a></li><li><a class="nm" href="https://docs.google.com/document/d/15qeVvhpIQhxApA-ZNM6amp5znvZHVlnPlmu719ewvPg/edit">Email Templates</a></li></ul></section>
+<section class="tools"><h2>Tools</h2><ul><li><a href="https://app.todoist.com">Todoist</a></li><li><a href="https://airtable.com/apph2Wqey6OLWgntz">Airtable</a></li><li><a href="https://trello.com">Trello</a></li><li><a href="https://mail.google.com">Gmail</a></li><li><a href="https://calendar.google.com">Calendar</a></li></ul></section>
+</div>
+
+<footer>Derived from SYS - Canon - Project Registry (harvest 2026-08-12). Do not hand-edit. Regenerate via Mission Control.</footer>
+</body>
+</html>
